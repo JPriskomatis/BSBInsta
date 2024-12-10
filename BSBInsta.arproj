@@ -3,7 +3,7 @@
   "name": "Effect",
   "identifier": "document:90965-14b2fdae-fd79-434c-8717-23fba8e690d4",
   "id": "10567407a2951ba3c548169015939c67f2b858",
-  "revision": "1579001a921ca14364a8c9442dfe6dc3186f0",
+  "revision": "18015501a921ca14364a8c9442dfe6dc3186f0",
   "version": {
     "dev": 0,
     "patch": 0,
@@ -124,6 +124,15 @@
         },
         {
           "sectionFileLocation": "materials/Snow-3.material"
+        },
+        {
+          "sectionFileLocation": "materials/redConfeti-2.material"
+        },
+        {
+          "sectionFileLocation": "materials/goldConfeti.material"
+        },
+        {
+          "sectionFileLocation": "materials/BluedConfeti0.material"
         }
       ]
     },
@@ -147,6 +156,13 @@
       "modelName": "layers",
       "identifier": "layers:90981-14b2fdae-fd79-434c-8717-23fba8e690d4",
       "children": [
+        {
+          "modelName": "layer",
+          "name": "layer1",
+          "identifier": "layer:146603-01a921ca-1436-4a8c-9442-dfe6dc3186f0",
+          "color": "0xffeb7dbd",
+          "generationIndex": 1
+        },
         {
           "modelName": "layer",
           "name": "layer0",
@@ -383,7 +399,7 @@
       "effectUsesObjectTracking": false,
       "effectUsesOpusCodec": false,
       "effectUsesOverlayOutput": false,
-      "effectUsesPBRMaterial": false,
+      "effectUsesPBRMaterial": true,
       "effectUsesParticipant": false,
       "effectUsesParticleSystem": true,
       "effectUsesPeerOutput": false,
