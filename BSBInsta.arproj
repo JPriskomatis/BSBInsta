@@ -26,7 +26,8 @@
       "categoriesOrder": [
         "textures",
         "audio",
-        "materials"
+        "materials",
+        "blocks"
       ]
     }
   ],
@@ -277,7 +278,7 @@
       "effectUsesAutomaticAlphaSort": false,
       "effectUsesAutomaticInstructions": true,
       "effectUsesBlockModulesConfigExtras": false,
-      "effectUsesBlocks": false,
+      "effectUsesBlocks": true,
       "effectUsesBlocksDownloadable": false,
       "effectUsesBlocksScripting": false,
       "effectUsesBodyTracking": false,
@@ -601,6 +602,24 @@
     {
       "modelName": "input_mappings_model",
       "identifier": "input_mappings_model:75920-07a2951b-a3c5-4816-9015-939c67f2b858"
+    },
+    {
+      "modelName": "block_documents_model",
+      "identifier": "block_documents_model:215708-01a921ca-1436-4a8c-9442-dfe6dc3186f0",
+      "children": [
+        {
+          "modelName": "block_model",
+          "name": "Gold Glitter",
+          "identifier": "block_model:259112-01a921ca-1436-4a8c-9442-dfe6dc3186f0",
+          "assetDataHash": "4f18c63e6fcf46f3ac2831f369f24726",
+          "assetLocator": "blocks/Gold Glitter/Gold Glitter.arblock",
+          "excludeDuringExport": true,
+          "instances": [
+            "block_scene_model:260013-01a921ca-1436-4a8c-9442-dfe6dc3186f0"
+          ],
+          "isExternalAsset": true
+        }
+      ]
     }
   ]
 }
