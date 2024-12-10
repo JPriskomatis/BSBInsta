@@ -550,34 +550,6 @@
                   },
                   "children": [
                     {
-                      "modelName": "block_scene_model",
-                      "name": "Gold Glitter",
-                      "identifier": "block_scene_model:260013-01a921ca-1436-4a8c-9442-dfe6dc3186f0",
-                      "animationMask": {
-                        "position": false,
-                        "rotation": false,
-                        "scale": false
-                      },
-                      "cameraVisibility": "back|front",
-                      "customPortValues": {},
-                      "hidden": true,
-                      "layerIdentifier": "layer1",
-                      "outputVisibility": "preview|capture",
-                      "physicsEnabled": false,
-                      "tags": [],
-                      "transform": {
-                        "rx": 0,
-                        "ry": 0,
-                        "rz": 0,
-                        "sx": 0.5,
-                        "sy": 0.5,
-                        "sz": 0.5,
-                        "x": 0,
-                        "y": 0,
-                        "z": 0
-                      }
-                    },
-                    {
                       "modelName": "sceneObject",
                       "name": "IdleState",
                       "identifier": "sceneObject:92871-14b2fdae-fd79-434c-8717-23fba8e690d4",

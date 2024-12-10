@@ -3,7 +3,7 @@
   "name": "Effect",
   "identifier": "document:90965-14b2fdae-fd79-434c-8717-23fba8e690d4",
   "id": "10567407a2951ba3c548169015939c67f2b858",
-  "revision": "21784401a921ca14364a8c9442dfe6dc3186f0",
+  "revision": "17362947ab838e72c43abaf1f70284561cc35",
   "version": {
     "dev": 0,
     "patch": 0,
@@ -25,9 +25,7 @@
       "identifier": "assets_config_model:91184-14b2fdae-fd79-434c-8717-23fba8e690d4",
       "categoriesOrder": [
         "textures",
-        "audio",
-        "materials",
-        "blocks"
+        "materials"
       ]
     }
   ],
@@ -98,9 +96,6 @@
         },
         {
           "sectionFileLocation": "textures/Question2.texture"
-        },
-        {
-          "sectionFileLocation": "textures/Snowflake.texture"
         },
         {
           "sectionFileLocation": "textures/Answer6a.texture"
@@ -278,7 +273,7 @@
       "effectUsesAutomaticAlphaSort": false,
       "effectUsesAutomaticInstructions": true,
       "effectUsesBlockModulesConfigExtras": false,
-      "effectUsesBlocks": true,
+      "effectUsesBlocks": false,
       "effectUsesBlocksDownloadable": false,
       "effectUsesBlocksScripting": false,
       "effectUsesBodyTracking": false,
@@ -304,7 +299,7 @@
       "effectUsesDepth": false,
       "effectUsesDepthData": false,
       "effectUsesDepthShaderRead": false,
-      "effectUsesDeviceMotion": true,
+      "effectUsesDeviceMotion": false,
       "effectUsesDiagnosticsScriptingModule": false,
       "effectUsesDirectionalLightEstimation": false,
       "effectUsesDspAudioAnalyzer": false,
@@ -526,9 +521,7 @@
       "internalScriptingAPIEventStream": false,
       "internalScriptingAPIExperimentalCameraInfo": false,
       "internalScriptingAPIGlobalTransform": false,
-      "manuallyEnabledItemsIds": [
-        "effectUsesDeviceMotion"
-      ],
+      "manuallyEnabledItemsIds": [],
       "maxParticipantsCount": 0,
       "multiclassSegmentationMinVersion": 3004,
       "objectTrackerMaxObjects": 1,
@@ -572,21 +565,6 @@
       ]
     },
     {
-      "modelName": "sounds",
-      "identifier": "sounds:91029-14b2fdae-fd79-434c-8717-23fba8e690d4",
-      "children": [
-        {
-          "modelName": "sound",
-          "name": "Success.m4a",
-          "identifier": "sound:91340-14b2fdae-fd79-434c-8717-23fba8e690d4",
-          "assetDataHash": "ad6a21aac1861ef7d30d35d5aa6783a9",
-          "assetLocator": "sounds/Success.m4a",
-          "duration": 1359,
-          "isExternalAsset": true
-        }
-      ]
-    },
-    {
       "modelName": "scripting_config_model",
       "identifier": "scripting_config_model:91033-14b2fdae-fd79-434c-8717-23fba8e690d4",
       "forceStrictModeCompilation": true
@@ -602,24 +580,6 @@
     {
       "modelName": "input_mappings_model",
       "identifier": "input_mappings_model:75920-07a2951b-a3c5-4816-9015-939c67f2b858"
-    },
-    {
-      "modelName": "block_documents_model",
-      "identifier": "block_documents_model:215708-01a921ca-1436-4a8c-9442-dfe6dc3186f0",
-      "children": [
-        {
-          "modelName": "block_model",
-          "name": "Gold Glitter",
-          "identifier": "block_model:259112-01a921ca-1436-4a8c-9442-dfe6dc3186f0",
-          "assetDataHash": "4f18c63e6fcf46f3ac2831f369f24726",
-          "assetLocator": "blocks/Gold Glitter/Gold Glitter.arblock",
-          "excludeDuringExport": true,
-          "instances": [
-            "block_scene_model:260013-01a921ca-1436-4a8c-9442-dfe6dc3186f0"
-          ],
-          "isExternalAsset": true
-        }
-      ]
     }
   ]
 }
