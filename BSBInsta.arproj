@@ -3,7 +3,7 @@
   "name": "Effect",
   "identifier": "document:90965-14b2fdae-fd79-434c-8717-23fba8e690d4",
   "id": "10567407a2951ba3c548169015939c67f2b858",
-  "revision": "17362947ab838e72c43abaf1f70284561cc35",
+  "revision": "21926947ab838e72c43abaf1f70284561cc35",
   "version": {
     "dev": 0,
     "patch": 0,
@@ -47,6 +47,9 @@
           "sectionFileLocation": "textures/Select.texture"
         },
         {
+          "sectionFileLocation": "textures/Answer1a.texture"
+        },
+        {
           "sectionFileLocation": "textures/Answer1b.texture"
         },
         {
@@ -54,6 +57,9 @@
         },
         {
           "sectionFileLocation": "textures/Answer2b.texture"
+        },
+        {
+          "sectionFileLocation": "textures/Answer3a.texture"
         },
         {
           "sectionFileLocation": "textures/Answer3b.texture"
@@ -68,10 +74,13 @@
           "sectionFileLocation": "textures/Answer5a.texture"
         },
         {
-          "sectionFileLocation": "textures/Answer1a.texture"
+          "sectionFileLocation": "textures/Answer5b-2.texture"
         },
         {
-          "sectionFileLocation": "textures/Answer3a.texture"
+          "sectionFileLocation": "textures/Answer6a.texture"
+        },
+        {
+          "sectionFileLocation": "textures/Answer6b.texture"
         },
         {
           "sectionFileLocation": "textures/Title.texture"
@@ -83,28 +92,19 @@
           "sectionFileLocation": "textures/Question1.texture"
         },
         {
-          "sectionFileLocation": "textures/Question6.texture"
-        },
-        {
-          "sectionFileLocation": "textures/Question5.texture"
-        },
-        {
-          "sectionFileLocation": "textures/Question4.texture"
+          "sectionFileLocation": "textures/Question2.texture"
         },
         {
           "sectionFileLocation": "textures/Question3.texture"
         },
         {
-          "sectionFileLocation": "textures/Question2.texture"
+          "sectionFileLocation": "textures/Question4.texture"
         },
         {
-          "sectionFileLocation": "textures/Answer6a.texture"
+          "sectionFileLocation": "textures/Question5.texture"
         },
         {
-          "sectionFileLocation": "textures/Answer6b.texture"
-        },
-        {
-          "sectionFileLocation": "textures/Answer5b-2.texture"
+          "sectionFileLocation": "textures/Question6.texture"
         }
       ]
     },
