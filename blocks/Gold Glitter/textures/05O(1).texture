@@ -1,0 +1,35 @@
+{
+  "modelName": "texture",
+  "name": "05O(1)",
+  "identifier": "texture:6314-37f8c577-c111-4298-8c09-96a7d52619b5",
+  "alphaPremultiplicationMode": "should_premultiply",
+  "assetDataHash": "42c52f64839f5e2dcab800d10ee53b3d",
+  "assetLocator": "textures/05O(1).png",
+  "colorEncoding": "linear",
+  "compressionQuality": "high",
+  "coordMapping": "none",
+  "excludeDuringExport": false,
+  "excludeFromPackage": false,
+  "filter": "bilinear",
+  "hasOfflineMipmaps": false,
+  "height": 1024,
+  "importIssues": {},
+  "isExternalAsset": true,
+  "smartTextureTargetSizeLimit": "largest",
+  "targetSize": "largest",
+  "uWrapMode": "clamp",
+  "vWrapMode": "clamp",
+  "width": 575,
+  "children": [
+    {
+      "modelName": "data_texture_metadata_model",
+      "assetDataHash": "42c52f64839f5e2dcab800d10ee53b3d",
+      "colorCount": 13760,
+      "detectedAlphaChannel": "no_alpha",
+      "detectedOriginalFormat": "png",
+      "entropyOfDistribution": 2.0957318868289683,
+      "pixelsHigh": 1024,
+      "pixelsWide": 575
+    }
+  ]
+}

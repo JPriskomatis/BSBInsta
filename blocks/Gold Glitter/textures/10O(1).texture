@@ -1,0 +1,35 @@
+{
+  "modelName": "texture",
+  "name": "10O(1)",
+  "identifier": "texture:6334-37f8c577-c111-4298-8c09-96a7d52619b5",
+  "alphaPremultiplicationMode": "should_premultiply",
+  "assetDataHash": "19e9ec89f22b1fd8bf30fbf5a9868039",
+  "assetLocator": "textures/10O(1).png",
+  "colorEncoding": "linear",
+  "compressionQuality": "high",
+  "coordMapping": "none",
+  "excludeDuringExport": false,
+  "excludeFromPackage": false,
+  "filter": "bilinear",
+  "hasOfflineMipmaps": false,
+  "height": 1024,
+  "importIssues": {},
+  "isExternalAsset": true,
+  "smartTextureTargetSizeLimit": "largest",
+  "targetSize": "largest",
+  "uWrapMode": "clamp",
+  "vWrapMode": "clamp",
+  "width": 575,
+  "children": [
+    {
+      "modelName": "data_texture_metadata_model",
+      "assetDataHash": "19e9ec89f22b1fd8bf30fbf5a9868039",
+      "colorCount": 14711,
+      "detectedAlphaChannel": "no_alpha",
+      "detectedOriginalFormat": "png",
+      "entropyOfDistribution": 1.989783722458286,
+      "pixelsHigh": 1024,
+      "pixelsWide": 575
+    }
+  ]
+}

@@ -467,7 +467,7 @@
                   "cameraVisibility": "back|front",
                   "color": "0xffffffff",
                   "hidden": false,
-                  "intensity": 0.530434787273407,
+                  "intensity": 0.6045454740524292,
                   "layerIdentifier": "layer0",
                   "outputVisibility": "preview|capture",
                   "physicsEnabled": false,

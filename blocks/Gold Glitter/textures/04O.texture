@@ -1,0 +1,35 @@
+{
+  "modelName": "texture",
+  "name": "04O",
+  "identifier": "texture:6310-37f8c577-c111-4298-8c09-96a7d52619b5",
+  "alphaPremultiplicationMode": "should_premultiply",
+  "assetDataHash": "b517a15d7ee9c6eb6d2e2b6e81b7ee2e",
+  "assetLocator": "textures/04O.png",
+  "colorEncoding": "linear",
+  "compressionQuality": "high",
+  "coordMapping": "none",
+  "excludeDuringExport": false,
+  "excludeFromPackage": false,
+  "filter": "bilinear",
+  "hasOfflineMipmaps": false,
+  "height": 1024,
+  "importIssues": {},
+  "isExternalAsset": true,
+  "smartTextureTargetSizeLimit": "largest",
+  "targetSize": "largest",
+  "uWrapMode": "clamp",
+  "vWrapMode": "clamp",
+  "width": 575,
+  "children": [
+    {
+      "modelName": "data_texture_metadata_model",
+      "assetDataHash": "b517a15d7ee9c6eb6d2e2b6e81b7ee2e",
+      "colorCount": 14200,
+      "detectedAlphaChannel": "no_alpha",
+      "detectedOriginalFormat": "png",
+      "entropyOfDistribution": 2.032456872606161,
+      "pixelsHigh": 1024,
+      "pixelsWide": 575
+    }
+  ]
+}

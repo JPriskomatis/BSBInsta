@@ -1,0 +1,35 @@
+{
+  "modelName": "texture",
+  "name": "03O",
+  "identifier": "texture:6306-37f8c577-c111-4298-8c09-96a7d52619b5",
+  "alphaPremultiplicationMode": "should_premultiply",
+  "assetDataHash": "f460a4fb5177b31c48c7acfc392cca5d",
+  "assetLocator": "textures/03O.png",
+  "colorEncoding": "linear",
+  "compressionQuality": "high",
+  "coordMapping": "none",
+  "excludeDuringExport": false,
+  "excludeFromPackage": false,
+  "filter": "bilinear",
+  "hasOfflineMipmaps": false,
+  "height": 1024,
+  "importIssues": {},
+  "isExternalAsset": true,
+  "smartTextureTargetSizeLimit": "largest",
+  "targetSize": "largest",
+  "uWrapMode": "clamp",
+  "vWrapMode": "clamp",
+  "width": 575,
+  "children": [
+    {
+      "modelName": "data_texture_metadata_model",
+      "assetDataHash": "f460a4fb5177b31c48c7acfc392cca5d",
+      "colorCount": 13943,
+      "detectedAlphaChannel": "no_alpha",
+      "detectedOriginalFormat": "png",
+      "entropyOfDistribution": 2.104158146569544,
+      "pixelsHigh": 1024,
+      "pixelsWide": 575
+    }
+  ]
+}

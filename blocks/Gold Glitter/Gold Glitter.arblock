@@ -1,9 +1,9 @@
 {
   "modelName": "document",
   "name": "Effect",
-  "identifier": "document:90965-14b2fdae-fd79-434c-8717-23fba8e690d4",
-  "id": "10567407a2951ba3c548169015939c67f2b858",
-  "revision": "21926947ab838e72c43abaf1f70284561cc35",
+  "identifier": "document:619-37f8c577-c111-4298-8c09-96a7d52619b5",
+  "id": "635737f8c577c11142988c0996a7d52619b5",
+  "revision": "61837f8c577c11142988c0996a7d52619b5",
   "version": {
     "dev": 0,
     "patch": 0,
@@ -14,217 +14,136 @@
   "creatorFileVersion": {
     "dev": 0,
     "patch": 0,
-    "prod": 164
+    "prod": 102
   },
   "cameraFar": 50,
   "cameraNear": 0.009999999776482582,
+  "documentType": "block",
   "measurementUnit": "meter",
-  "objects": [
-    {
-      "modelName": "assets_config_model",
-      "identifier": "assets_config_model:91184-14b2fdae-fd79-434c-8717-23fba8e690d4",
-      "categoriesOrder": [
-        "textures",
-        "materials",
-        "blocks"
-      ]
-    }
-  ],
+  "objects": [],
   "previousDocumentIds": [
-    "9096314b2fdaefd79434c871723fba8e690d4",
-    "9958307a2951ba3c548169015939c67f2b858"
+    "61737f8c577c11142988c0996a7d52619b5"
   ],
   "projectFormatType": "separated_files",
   "usingPatchesV2": true,
   "visual_programming": {
-    "sectionFileLocation": "BSBInsta.patches"
+    "graphs": [
+      {
+        "modelName": "patch_graph",
+        "identifier": "patch_graph:809-37f8c577-c111-4298-8c09-96a7d52619b5"
+      }
+    ]
   },
   "children": [
     {
       "modelName": "textures",
-      "identifier": "textures:90971-14b2fdae-fd79-434c-8717-23fba8e690d4",
+      "identifier": "textures:625-37f8c577-c111-4298-8c09-96a7d52619b5",
       "children": [
         {
-          "sectionFileLocation": "textures/Select.texture"
+          "modelName": "sequenceTexture",
+          "name": "animationSequence0",
+          "identifier": "sequenceTexture:828-37f8c577-c111-4298-8c09-96a7d52619b5",
+          "frameRate": 5,
+          "isSourceTextureIdentifierEnabled": true,
+          "sourceTextureIdentifier": "textureGroup:6336-37f8c577-c111-4298-8c09-96a7d52619b5"
         },
         {
-          "sectionFileLocation": "textures/Answer1a.texture"
-        },
-        {
-          "sectionFileLocation": "textures/Answer1b.texture"
-        },
-        {
-          "sectionFileLocation": "textures/Answer2a.texture"
-        },
-        {
-          "sectionFileLocation": "textures/Answer2b.texture"
-        },
-        {
-          "sectionFileLocation": "textures/Answer3a.texture"
-        },
-        {
-          "sectionFileLocation": "textures/Answer3b.texture"
-        },
-        {
-          "sectionFileLocation": "textures/Answer4a.texture"
-        },
-        {
-          "sectionFileLocation": "textures/Answer4b.texture"
-        },
-        {
-          "sectionFileLocation": "textures/Answer5a.texture"
-        },
-        {
-          "sectionFileLocation": "textures/Answer5b-2.texture"
-        },
-        {
-          "sectionFileLocation": "textures/Answer6a.texture"
-        },
-        {
-          "sectionFileLocation": "textures/Answer6b.texture"
-        },
-        {
-          "sectionFileLocation": "textures/Title.texture"
-        },
-        {
-          "sectionFileLocation": "textures/Result.texture"
-        },
-        {
-          "sectionFileLocation": "textures/Question1.texture"
-        },
-        {
-          "sectionFileLocation": "textures/Question2.texture"
-        },
-        {
-          "sectionFileLocation": "textures/Question3.texture"
-        },
-        {
-          "sectionFileLocation": "textures/Question4.texture"
-        },
-        {
-          "sectionFileLocation": "textures/Question5.texture"
-        },
-        {
-          "sectionFileLocation": "textures/Question6.texture"
+          "modelName": "textureGroup",
+          "name": "[1-10]",
+          "identifier": "textureGroup:6336-37f8c577-c111-4298-8c09-96a7d52619b5",
+          "sequenceFramesTextureIdentifiers": [
+            "texture:6298-37f8c577-c111-4298-8c09-96a7d52619b5",
+            "texture:6302-37f8c577-c111-4298-8c09-96a7d52619b5",
+            "texture:6306-37f8c577-c111-4298-8c09-96a7d52619b5",
+            "texture:6310-37f8c577-c111-4298-8c09-96a7d52619b5",
+            "texture:6314-37f8c577-c111-4298-8c09-96a7d52619b5",
+            "texture:6318-37f8c577-c111-4298-8c09-96a7d52619b5",
+            "texture:6322-37f8c577-c111-4298-8c09-96a7d52619b5",
+            "texture:6326-37f8c577-c111-4298-8c09-96a7d52619b5",
+            "texture:6330-37f8c577-c111-4298-8c09-96a7d52619b5",
+            "texture:6334-37f8c577-c111-4298-8c09-96a7d52619b5"
+          ],
+          "children": [
+            {
+              "sectionFileLocation": "textures/01O.texture"
+            },
+            {
+              "sectionFileLocation": "textures/02O.texture"
+            },
+            {
+              "sectionFileLocation": "textures/03O.texture"
+            },
+            {
+              "sectionFileLocation": "textures/04O.texture"
+            },
+            {
+              "sectionFileLocation": "textures/05O(1).texture"
+            },
+            {
+              "sectionFileLocation": "textures/06O(1).texture"
+            },
+            {
+              "sectionFileLocation": "textures/07O(1).texture"
+            },
+            {
+              "sectionFileLocation": "textures/08O(1).texture"
+            },
+            {
+              "sectionFileLocation": "textures/09O(1).texture"
+            },
+            {
+              "sectionFileLocation": "textures/10O(1).texture"
+            }
+          ]
         }
       ]
     },
     {
       "modelName": "materials",
-      "identifier": "materials:90973-14b2fdae-fd79-434c-8717-23fba8e690d4",
+      "identifier": "materials:627-37f8c577-c111-4298-8c09-96a7d52619b5",
       "children": [
         {
-          "sectionFileLocation": "materials/CenterMAT.material"
-        },
-        {
-          "sectionFileLocation": "materials/LeftMAT.material"
-        },
-        {
-          "sectionFileLocation": "materials/RightMAT.material"
-        },
-        {
-          "sectionFileLocation": "materials/SelectMAT.material"
-        },
-        {
-          "sectionFileLocation": "materials/QuestionMaterial.material"
-        },
-        {
-          "sectionFileLocation": "materials/Snow-3.material"
-        },
-        {
-          "sectionFileLocation": "materials/redConfeti-2.material"
-        },
-        {
-          "sectionFileLocation": "materials/goldConfeti.material"
-        },
-        {
-          "sectionFileLocation": "materials/BluedConfeti0.material"
+          "sectionFileLocation": "materials/Glitter.material"
         }
       ]
     },
     {
-      "modelName": "prefabs",
-      "identifier": "prefabs:90975-14b2fdae-fd79-434c-8717-23fba8e690d4",
-      "children": [
-        {
-          "modelName": "sphere_shape_model",
-          "name": "sphere_shape_model0",
-          "identifier": "sphere_shape_model:50497-01a921ca-1436-4a8c-9442-dfe6dc3186f0",
-          "assetLocator": "50496-01a921ca-1436-4a8c-9442-dfe6dc3186f0.glb",
-          "isExternalAsset": false
-        }
-      ]
-    },
-    {
-      "sectionFileLocation": "BSBInsta.scene"
+      "sectionFileLocation": "Gold Glitter.scene"
     },
     {
       "modelName": "layers",
-      "identifier": "layers:90981-14b2fdae-fd79-434c-8717-23fba8e690d4",
+      "identifier": "layers:635-37f8c577-c111-4298-8c09-96a7d52619b5",
       "children": [
         {
           "modelName": "layer",
-          "name": "layer1",
-          "identifier": "layer:146603-01a921ca-1436-4a8c-9442-dfe6dc3186f0",
-          "color": "0xffeb7dbd",
-          "generationIndex": 1
-        },
-        {
-          "modelName": "layer",
           "name": "layer0",
-          "identifier": "layer:91047-14b2fdae-fd79-434c-8717-23fba8e690d4",
-          "color": "0xff8c72ca"
+          "identifier": "layer:707-37f8c577-c111-4298-8c09-96a7d52619b5",
+          "color": "0xff8c72cb"
         }
       ]
     },
     {
-      "modelName": "patch_graphs_model",
-      "identifier": "patch_graphs_model:90991-14b2fdae-fd79-434c-8717-23fba8e690d4"
-    },
-    {
       "modelName": "scripts_model",
-      "identifier": "scripts_model:90999-14b2fdae-fd79-434c-8717-23fba8e690d4",
+      "identifier": "scripts_model:655-37f8c577-c111-4298-8c09-96a7d52619b5",
       "children": [
         {
           "modelName": "script_bridging_variables_model",
-          "identifier": "script_bridging_variables_model:91001-14b2fdae-fd79-434c-8717-23fba8e690d4"
+          "identifier": "script_bridging_variables_model:657-37f8c577-c111-4298-8c09-96a7d52619b5"
         }
       ]
     },
     {
       "modelName": "bundled_packages_model",
-      "identifier": "bundled_packages_model:91007-14b2fdae-fd79-434c-8717-23fba8e690d4"
+      "identifier": "bundled_packages_model:663-37f8c577-c111-4298-8c09-96a7d52619b5"
     },
     {
       "modelName": "exportConfig",
-      "identifier": "exportConfig:91011-14b2fdae-fd79-434c-8717-23fba8e690d4",
-      "children": [
-        {
-          "modelName": "textureExportConfig",
-          "identifier": "textureExportConfig:115745-ee2d6561-bcdb-44f6-b689-bf63c8d375e9",
-          "compressionFormat": 30,
-          "method": "fastest",
-          "targetFormat": 1
-        },
-        {
-          "modelName": "textureExportConfig",
-          "identifier": "textureExportConfig:115771-ee2d6561-bcdb-44f6-b689-bf63c8d375e9",
-          "compressionFormat": 30,
-          "method": "fastest",
-          "targetFormat": 2
-        },
-        {
-          "modelName": "textureExportConfig",
-          "identifier": "textureExportConfig:115797-ee2d6561-bcdb-44f6-b689-bf63c8d375e9",
-          "compressionFormat": 30,
-          "method": "fastest"
-        }
-      ]
+      "identifier": "exportConfig:667-37f8c577-c111-4298-8c09-96a7d52619b5"
     },
     {
       "modelName": "manifest",
-      "identifier": "manifest:91013-14b2fdae-fd79-434c-8717-23fba8e690d4",
-      "additionalEnabledChanges": null,
+      "identifier": "manifest:669-37f8c577-c111-4298-8c09-96a7d52619b5",
+      "additionalEnabledChanges": [],
       "assistantAppIDs": [
         "2320137961422959"
       ],
@@ -247,9 +166,9 @@
       "effectDisablesMicrophone": false,
       "effectForceAsyncScripting": false,
       "effectForcesSynchronousScripting": false,
-      "effectHasAmbientAudio": true,
+      "effectHasAmbientAudio": false,
       "effectHasAudioGraphApi": false,
-      "effectHasTriggeredAudio": true,
+      "effectHasTriggeredAudio": false,
       "effectImageAntiAliasingEdgeSharpness": 0.5,
       "effectImageAntiAliasingEdgeThreshold": 0.5,
       "effectImageAntiAliasingTechnique": "fxaa",
@@ -263,7 +182,7 @@
       "effectUsesAnimationScriptingModule": false,
       "effectUsesAppLauncher": false,
       "effectUsesAssistant": false,
-      "effectUsesAudio": true,
+      "effectUsesAudio": false,
       "effectUsesAudioLegacyMicFork": false,
       "effectUsesAudioMixer": false,
       "effectUsesAudioSpatialEmitter": false,
@@ -335,14 +254,14 @@
       "effectUsesFaceExpressionExperimental": false,
       "effectUsesFaceExpressionFitting": false,
       "effectUsesFaceExtraction": false,
-      "effectUsesFaceTracker": true,
-      "effectUsesFaceTracker3D": true,
+      "effectUsesFaceTracker": false,
+      "effectUsesFaceTracker3D": false,
       "effectUsesFaceTracker96": false,
       "effectUsesFaceTrackingScripting2D": false,
       "effectUsesFaceTrueScale": false,
       "effectUsesFaceWave": false,
       "effectUsesFacialExpressionRecognition": false,
-      "effectUsesFacialGestureRecognition": true,
+      "effectUsesFacialGestureRecognition": false,
       "effectUsesFieldOfView": false,
       "effectUsesFingerTracking": false,
       "effectUsesFonts": false,
@@ -366,7 +285,7 @@
       "effectUsesImageAntiAliasing": false,
       "effectUsesImageAssets": false,
       "effectUsesImageBasedLighting": false,
-      "effectUsesInstruction": true,
+      "effectUsesInstruction": false,
       "effectUsesIntent": false,
       "effectUsesInterEffectLinking": false,
       "effectUsesInternalScriptingAPI": false,
@@ -405,9 +324,9 @@
       "effectUsesObjectTracking": false,
       "effectUsesOpusCodec": false,
       "effectUsesOverlayOutput": false,
-      "effectUsesPBRMaterial": true,
+      "effectUsesPBRMaterial": false,
       "effectUsesParticipant": false,
-      "effectUsesParticleSystem": true,
+      "effectUsesParticleSystem": false,
       "effectUsesPeerOutput": false,
       "effectUsesPeerVideoStream": false,
       "effectUsesPermissions": false,
@@ -469,16 +388,16 @@
       "effectUsesTexturesScriptingModule": false,
       "effectUsesTimeScriptingModule": false,
       "effectUsesToasterTracking": false,
-      "effectUsesTouchGestures": true,
+      "effectUsesTouchGestures": false,
       "effectUsesTwoDimensionalText": false,
       "effectUsesTypeScript": false,
       "effectUsesUiCore": false,
       "effectUsesUiPlanarBackend": false,
       "effectUsesUnifiedTargetTracking": false,
       "effectUsesUnitsScriptingModule": false,
-      "effectUsesVariadicMath": true,
+      "effectUsesVariadicMath": false,
       "effectUsesVertexTextureFetch": false,
-      "effectUsesVisualShaders": true,
+      "effectUsesVisualShaders": false,
       "effectUsesVisualShadersSdf": false,
       "effectUsesVoiceInteraction": false,
       "effectUsesWarpPostProcessor": false,
@@ -495,12 +414,12 @@
       "effectUsesWorldUnderstandingV2": false,
       "effectUsesWriteableSignalSource": false,
       "engineSDKVersion": "174.0",
-      "externalTexturesWhitelistedDomains": null,
+      "externalTexturesWhitelistedDomains": [],
       "faceExpressionFittingMinVersion": 15,
       "faceExpressionFittingRTRRetargetingMinVersion": 1,
       "faceTrackerIsEnabled": false,
       "faceTrackerMaxFaces": 1,
-      "faceTrackerMinVersion": 13,
+      "faceTrackerMinVersion": 10,
       "facewaveMinVersion": 1,
       "hairSegmentationMinVersion": 1,
       "handTrackerMaxHands": 2,
@@ -522,7 +441,7 @@
       "internalScriptingAPIEventStream": false,
       "internalScriptingAPIExperimentalCameraInfo": false,
       "internalScriptingAPIGlobalTransform": false,
-      "manuallyEnabledItemsIds": [],
+      "manuallyEnabledItemsIds": null,
       "maxParticipantsCount": 0,
       "multiclassSegmentationMinVersion": 3004,
       "objectTrackerMaxObjects": 1,
@@ -545,7 +464,7 @@
       "touchGesturesSupportsPinch": false,
       "touchGesturesSupportsRawTouch": false,
       "touchGesturesSupportsRotate": false,
-      "touchGesturesSupportsTap": true,
+      "touchGesturesSupportsTap": false,
       "whitelistedDomains": null,
       "witAppId": null,
       "witClientToken": null,
@@ -556,7 +475,7 @@
     },
     {
       "modelName": "target",
-      "identifier": "target:91023-14b2fdae-fd79-434c-8717-23fba8e690d4",
+      "identifier": "target:679-37f8c577-c111-4298-8c09-96a7d52619b5",
       "targetPlatforms": [
         "instagram",
         "facebook"
@@ -567,35 +486,7 @@
     },
     {
       "modelName": "scripting_config_model",
-      "identifier": "scripting_config_model:91033-14b2fdae-fd79-434c-8717-23fba8e690d4",
-      "forceStrictModeCompilation": true
-    },
-    {
-      "modelName": "videos_model",
-      "identifier": "videos_model:91180-14b2fdae-fd79-434c-8717-23fba8e690d4"
-    },
-    {
-      "modelName": "graphicsConfig",
-      "identifier": "graphicsConfig:75451-07a2951b-a3c5-4816-9015-939c67f2b858"
-    },
-    {
-      "modelName": "input_mappings_model",
-      "identifier": "input_mappings_model:75920-07a2951b-a3c5-4816-9015-939c67f2b858"
-    },
-    {
-      "modelName": "block_documents_model",
-      "identifier": "block_documents_model:229-0a229e83-1912-4294-af3d-d1782a3b3a61",
-      "children": [
-        {
-          "modelName": "block_model",
-          "name": "Gold Glitter",
-          "identifier": "block_model:28260-0a229e83-1912-4294-af3d-d1782a3b3a61",
-          "assetDataHash": "a892a422d621218148218313707138f7",
-          "assetLocator": "blocks/Gold Glitter/Gold Glitter.arblock",
-          "excludeDuringExport": true,
-          "isExternalAsset": true
-        }
-      ]
+      "identifier": "scripting_config_model:691-37f8c577-c111-4298-8c09-96a7d52619b5"
     }
   ]
 }

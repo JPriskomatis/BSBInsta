@@ -65,6 +65,18 @@
       },
       {
         "modelName": "patch_comment_block_model",
+        "name": "SpawnParticles",
+        "identifier": "patch_comment_block_model:3629-0a229e83-1912-4294-af3d-d1782a3b3a61",
+        "container": "patch_graph:91055-14b2fdae-fd79-434c-8717-23fba8e690d4",
+        "frame": [
+          6751,
+          3152,
+          1997,
+          457
+        ]
+      },
+      {
+        "modelName": "patch_comment_block_model",
         "name": "Title Image",
         "identifier": "patch_comment_block_model:84902-07a2951b-a3c5-4816-9015-939c67f2b858",
         "container": "patch_graph:91055-14b2fdae-fd79-434c-8717-23fba8e690d4",
@@ -1734,8 +1746,8 @@
         "object": "defaultMaterial:99585-07a2951b-a3c5-4816-9015-939c67f2b858",
         "objectProperty": "diffuse_texture_slot",
         "position": [
-          7219,
-          2395
+          7171,
+          2539
         ]
       },
       {
@@ -1745,8 +1757,8 @@
         "object": "emitter:69612-01a921ca-1436-4a8c-9442-dfe6dc3186f0",
         "objectProperty": "particle_system_birthrate",
         "position": [
-          8083,
-          2491
+          8443,
+          3355
         ],
         "values": [
           {
@@ -1772,8 +1784,8 @@
         "object": "emitter:84168-01a921ca-1436-4a8c-9442-dfe6dc3186f0",
         "objectProperty": "particle_system_birthrate",
         "position": [
-          8083,
-          2635
+          8443,
+          3499
         ],
         "values": [
           {
@@ -1799,8 +1811,8 @@
         "object": "emitter:85718-01a921ca-1436-4a8c-9442-dfe6dc3186f0",
         "objectProperty": "particle_system_birthrate",
         "position": [
-          8083,
-          2371
+          8443,
+          3235
         ],
         "values": [
           {
@@ -1958,8 +1970,8 @@
         "object": "plane:92608-14b2fdae-fd79-434c-8717-23fba8e690d4",
         "objectProperty": "visible",
         "position": [
-          -509,
-          4603
+          -557,
+          4627
         ],
         "values": [
           {
@@ -1988,8 +2000,8 @@
         "identifier": "producer_patch_model:93461-14b2fdae-fd79-434c-8717-23fba8e690d4",
         "object": "facetracker:91342-14b2fdae-fd79-434c-8717-23fba8e690d4",
         "position": [
-          -1181,
-          691
+          -1229,
+          715
         ]
       },
       {
@@ -2037,8 +2049,8 @@
         "name": "Option Picker",
         "identifier": "template_patch_model:103769-07a2951b-a3c5-4816-9015-939c67f2b858",
         "position": [
-          6907,
-          2611
+          6547,
+          2467
         ],
         "templateId": "builtin.variadicOptionPicker",
         "values": [
@@ -2165,7 +2177,7 @@
         "name": "Equals Exactly",
         "identifier": "template_patch_model:105851-07a2951b-a3c5-4816-9015-939c67f2b858",
         "position": [
-          2683,
+          2659,
           3715
         ],
         "templateId": "builtin.binaryScalarEqOperator",
@@ -2354,8 +2366,8 @@
         "name": "Value",
         "identifier": "template_patch_model:165359-01a921ca-1436-4a8c-9442-dfe6dc3186f0",
         "position": [
-          7555,
-          2515
+          8083,
+          3355
         ],
         "templateId": "builtin.value",
         "variantInfo": "float"
@@ -2656,8 +2668,8 @@
         "name": "RightLeanSender",
         "identifier": "template_patch_model:266560-01a921ca-1436-4a8c-9442-dfe6dc3186f0",
         "position": [
-          -1085,
-          3907
+          -1061,
+          3979
         ],
         "templateId": "builtin.broadcast.receiver",
         "variantInfo": "boolean"
@@ -2781,7 +2793,7 @@
         "identifier": "template_patch_model:84357-07a2951b-a3c5-4816-9015-939c67f2b858",
         "position": [
           -653,
-          523
+          547
         ],
         "templateId": "builtin.broadcast.emitter",
         "variantInfo": "boolean"
@@ -2792,7 +2804,7 @@
         "identifier": "template_patch_model:84361-07a2951b-a3c5-4816-9015-939c67f2b858",
         "position": [
           -629,
-          859
+          883
         ],
         "templateId": "builtin.broadcast.emitter",
         "variantInfo": "boolean"
@@ -3331,8 +3343,8 @@
         "name": "Head Rotation",
         "identifier": "template_patch_model:93471-14b2fdae-fd79-434c-8717-23fba8e690d4",
         "position": [
-          -989,
-          619
+          -1013,
+          667
         ],
         "templateId": "builtin.group.headRotation"
       },
@@ -3506,8 +3518,8 @@
         "name": "Less Than",
         "identifier": "template_patch_model:94319-14b2fdae-fd79-434c-8717-23fba8e690d4",
         "position": [
-          -2069,
-          3667
+          -2021,
+          3739
         ],
         "templateId": "builtin.binaryScalarLtOperator",
         "values": [
@@ -3556,7 +3568,7 @@
         "name": "Delay",
         "identifier": "template_patch_model:94863-14b2fdae-fd79-434c-8717-23fba8e690d4",
         "position": [
-          -1397,
+          -1349,
           3763
         ],
         "templateId": "builtin.delay",
@@ -3646,7 +3658,7 @@
         "name": "Delay",
         "identifier": "template_patch_model:95883-14b2fdae-fd79-434c-8717-23fba8e690d4",
         "position": [
-          -149,
+          -125,
           643
         ],
         "templateId": "builtin.delay",
@@ -3666,8 +3678,8 @@
         "name": "Option Picker",
         "identifier": "template_patch_model:96650-14b2fdae-fd79-434c-8717-23fba8e690d4",
         "position": [
-          6979,
-          2059
+          6883,
+          2035
         ],
         "templateId": "builtin.variadicOptionPicker",
         "values": [

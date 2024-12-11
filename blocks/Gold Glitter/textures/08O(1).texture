@@ -1,0 +1,35 @@
+{
+  "modelName": "texture",
+  "name": "08O(1)",
+  "identifier": "texture:6326-37f8c577-c111-4298-8c09-96a7d52619b5",
+  "alphaPremultiplicationMode": "should_premultiply",
+  "assetDataHash": "896dbd613fa806e82b052540a343bdc8",
+  "assetLocator": "textures/08O(1).png",
+  "colorEncoding": "linear",
+  "compressionQuality": "high",
+  "coordMapping": "none",
+  "excludeDuringExport": false,
+  "excludeFromPackage": false,
+  "filter": "bilinear",
+  "hasOfflineMipmaps": false,
+  "height": 1024,
+  "importIssues": {},
+  "isExternalAsset": true,
+  "smartTextureTargetSizeLimit": "largest",
+  "targetSize": "largest",
+  "uWrapMode": "clamp",
+  "vWrapMode": "clamp",
+  "width": 575,
+  "children": [
+    {
+      "modelName": "data_texture_metadata_model",
+      "assetDataHash": "896dbd613fa806e82b052540a343bdc8",
+      "colorCount": 13379,
+      "detectedAlphaChannel": "no_alpha",
+      "detectedOriginalFormat": "png",
+      "entropyOfDistribution": 2.0070402745470384,
+      "pixelsHigh": 1024,
+      "pixelsWide": 575
+    }
+  ]
+}

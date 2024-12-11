@@ -1,0 +1,35 @@
+{
+  "modelName": "texture",
+  "name": "06O(1)",
+  "identifier": "texture:6318-37f8c577-c111-4298-8c09-96a7d52619b5",
+  "alphaPremultiplicationMode": "should_premultiply",
+  "assetDataHash": "ca53ddfdcfaf237724392839032a54c8",
+  "assetLocator": "textures/06O(1).png",
+  "colorEncoding": "linear",
+  "compressionQuality": "high",
+  "coordMapping": "none",
+  "excludeDuringExport": false,
+  "excludeFromPackage": false,
+  "filter": "bilinear",
+  "hasOfflineMipmaps": false,
+  "height": 1024,
+  "importIssues": {},
+  "isExternalAsset": true,
+  "smartTextureTargetSizeLimit": "largest",
+  "targetSize": "largest",
+  "uWrapMode": "clamp",
+  "vWrapMode": "clamp",
+  "width": 575,
+  "children": [
+    {
+      "modelName": "data_texture_metadata_model",
+      "assetDataHash": "ca53ddfdcfaf237724392839032a54c8",
+      "colorCount": 14001,
+      "detectedAlphaChannel": "no_alpha",
+      "detectedOriginalFormat": "png",
+      "entropyOfDistribution": 2.1392190956805814,
+      "pixelsHigh": 1024,
+      "pixelsWide": 575
+    }
+  ]
+}
